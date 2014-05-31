@@ -1,0 +1,64 @@
+// id count 반복여부 delay
+//		id : 애니메이션 id
+//		count : 애니메이션에 사용될 이미지 갯수
+// 경로 사이즈 [투명사용여부 투명처리할색깔] [알파사용여부 알파값]
+ryu_normal 7 1 100
+Resource\\image\\ryu_normal.bmp 0,0,170,170 1 ff00ff 0
+Resource\\image\\ryu_normal.bmp 170,0,340,170 1 ff00ff 0
+Resource\\image\\ryu_normal.bmp 340,0,510,170 1 ff00ff 0
+Resource\\image\\ryu_normal.bmp 510,0,680,170 1 ff00ff 0
+Resource\\image\\ryu_normal.bmp 680,0,850,170 1 ff00ff 0
+Resource\\image\\ryu_normal.bmp 850,0,1020,170 1 ff00ff 0
+Resource\\image\\ryu_normal.bmp 1020,0,1190,170 1 ff00ff 0
+ryu_go_front 8 1 80
+Resource\\image\\ryu_go_front.bmp 0,0,170,170 1 ff00ff 0
+Resource\\image\\ryu_go_front.bmp 170,0,340,170 1 ff00ff 0
+Resource\\image\\ryu_go_front.bmp 340,0,510,170 1 ff00ff 0
+Resource\\image\\ryu_go_front.bmp 510,0,680,170 1 ff00ff 0
+Resource\\image\\ryu_go_front.bmp 680,0,850,170 1 ff00ff 0
+Resource\\image\\ryu_go_front.bmp 850,0,1020,170 1 ff00ff 0
+Resource\\image\\ryu_go_front.bmp 1020,0,1190,170 1 ff00ff 0
+Resource\\image\\ryu_go_front.bmp 1190,0,1360,170 1 ff00ff 0
+ryu_go_back 8 1 100
+Resource\\image\\ryu_go_back.bmp 0,0,170,170 1 ff00ff 0
+Resource\\image\\ryu_go_back.bmp 170,0,340,170 1 ff00ff 0
+Resource\\image\\ryu_go_back.bmp 340,0,510,170 1 ff00ff 0
+Resource\\image\\ryu_go_back.bmp 510,0,680,170 1 ff00ff 0
+Resource\\image\\ryu_go_back.bmp 680,0,850,170 1 ff00ff 0
+Resource\\image\\ryu_go_back.bmp 850,0,1020,170 1 ff00ff 0
+Resource\\image\\ryu_go_back.bmp 1020,0,1190,170 1 ff00ff 0
+Resource\\image\\ryu_go_back.bmp 1190,0,1360,170 1 ff00ff 0
+ryu_jump 9 0 100
+Resource\\image\\ryu_jump.bmp 0,0,170,170 1 ff00ff 0
+Resource\\image\\ryu_jump.bmp 170,0,340,170 1 ff00ff 0
+Resource\\image\\ryu_jump.bmp 340,0,510,170 1 ff00ff 0
+Resource\\image\\ryu_jump.bmp 510,0,680,170 1 ff00ff 0
+Resource\\image\\ryu_jump.bmp 680,0,850,170 1 ff00ff 0
+Resource\\image\\ryu_jump.bmp 850,0,1020,170 1 ff00ff 0
+Resource\\image\\ryu_jump.bmp 1020,0,1190,170 1 ff00ff 0
+Resource\\image\\ryu_jump.bmp 1190,0,1360,170 1 ff00ff 0
+Resource\\image\\ryu_jump.bmp 1360,0,1530,170 1 ff00ff 0
+ryu_fire 12 0 80
+Resource\\image\\ryu_fire.bmp 0,0,170,170 1 ff00ff 0
+Resource\\image\\ryu_fire.bmp 170,0,340,170 1 ff00ff 0
+Resource\\image\\ryu_fire.bmp 340,0,510,170 1 ff00ff 0
+Resource\\image\\ryu_fire.bmp 510,0,680,170 1 ff00ff 0
+Resource\\image\\ryu_fire.bmp 680,0,850,170 1 ff00ff 0
+Resource\\image\\ryu_fire.bmp 850,0,1020,170 1 ff00ff 0
+Resource\\image\\ryu_fire.bmp 1020,0,1190,170 1 ff00ff 0
+Resource\\image\\ryu_fire.bmp 1190,0,1360,170 1 ff00ff 0
+Resource\\image\\ryu_fire.bmp 1360,0,1530,170 1 ff00ff 0
+Resource\\image\\ryu_fire.bmp 1530,0,1700,170 1 ff00ff 0
+Resource\\image\\ryu_fire.bmp 1700,0,1870,170 1 ff00ff 0
+Resource\\image\\ryu_fire.bmp 1870,0,2040,170 1 ff00ff 0
+fire 10 1 80
+Resource\\image\\fire2.bmp 0,0,100,100 1 ff00ff 0
+Resource\\image\\fire2.bmp 100,0,200,100 1 ff00ff 0
+Resource\\image\\fire2.bmp 200,0,300,100 1 ff00ff 0
+Resource\\image\\fire2.bmp 300,0,400,100 1 ff00ff 0
+Resource\\image\\fire2.bmp 400,0,500,100 1 ff00ff 0
+Resource\\image\\fire2.bmp 500,0,600,100 1 ff00ff 0
+Resource\\image\\fire2.bmp 600,0,700,100 1 ff00ff 0
+Resource\\image\\fire2.bmp 700,0,800,100 1 ff00ff 0
+Resource\\image\\fire2.bmp 800,0,900,100 1 ff00ff 0
+Resource\\image\\fire2.bmp 900,0,1000,100 1 ff00ff 0

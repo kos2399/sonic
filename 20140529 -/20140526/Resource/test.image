@@ -1,0 +1,10 @@
+// id 파일명 그려질부분 transparent사용여부 [값1] alpha사용여부 [값2]
+// [값1] : 투명처리할 색
+// [값2] : 알파값
+// []로 감싸진 부분은 사용여부에 따라 있을수도 있고, 없을수도 있다.
+title Resource\\image\\Title.bmp 422,0,678,223
+one Resource\\image\\Title.bmp 0,390,224,540 1 ff000c 0
+press Resource\\image\\Title.bmp 440,425,585,444 1 ffffff 0
+map Resource\\image\\map.bmp 2,2,241,194
+map1 Resource\\image\\map.bmp 2,2,241,194
+sonic Resource\\image\\map.bmp 2,2,241,194

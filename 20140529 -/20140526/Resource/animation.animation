@@ -1,0 +1,29 @@
+// id count 반복여부 delay
+//		id : 애니메이션 id
+//		count : 애니메이션에 사용될 이미지 갯수
+// 경로 사이즈 [투명사용여부 투명처리할색깔] [알파사용여부 알파값]
+cursor 5 1 100
+Resource\\image\\cursor.bmp 2,2,42,42 1 0000ff 0
+Resource\\image\\cursor.bmp 46,2,86,42 1 0000ff 0
+Resource\\image\\cursor.bmp 90,2,130,42 1 0000ff 0
+Resource\\image\\cursor.bmp 134,2,174,42 1 0000ff 0
+Resource\\image\\cursor.bmp 178,2,218,42 1 0000ff 0
+
+sonic 13 1 100
+Resource\\image\\Title.bmp 0,0,100,140 1 ff000c 0
+Resource\\image\\Title.bmp 100,0,200,140 1 ff000c 0
+Resource\\image\\Title.bmp 200,0,300,140 1 ff000c 0
+Resource\\image\\Title.bmp 300,0,400,140 1 ff000c 0
+Resource\\image\\Title.bmp 0,145,100,265 1 ff000c 0
+Resource\\image\\Title.bmp 100,145,200,265 1 ff000c 0
+Resource\\image\\Title.bmp 200,145,300,265 1 ff000c 0
+Resource\\image\\Title.bmp 300,145,400,265 1 ff000c 0
+Resource\\image\\Title.bmp 0,270,100,380 1 ff000c 0
+Resource\\image\\Title.bmp 100,270,200,380 1 ff000c 0
+Resource\\image\\Title.bmp 200,270,300,380 1 ff000c 0
+Resource\\image\\Title.bmp 300,270,400,380 1 ff000c 0
+Resource\\image\\Title.bmp 217,388,317,507 1 ff000c 0
+
+press 2 1 100
+Resource\\image\\Title.bmp 440,450,585,470 1 ffffff 0
+Resource\\image\\Title.bmp 440,473,585,495 1 ffffff 0

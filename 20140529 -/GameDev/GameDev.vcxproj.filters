@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{3cc3be43-986d-42fb-934e-2bf256921330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Utility">
+      <UniqueIdentifier>{83ff833e-67b7-43a8-91bc-8ec6d1e49f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Control">
+      <UniqueIdentifier>{cc655134-e1ee-4444-8c74-c278978fb0c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Graphic">
+      <UniqueIdentifier>{df3e49fb-1f1d-4297-abad-3f5b8b83e03a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Sound">
+      <UniqueIdentifier>{8a9e7b78-d230-4060-80df-409321d94df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Object">
+      <UniqueIdentifier>{32362f3f-089d-43e0-abc0-1a87135bb9c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Resource">
+      <UniqueIdentifier>{efcdbc18-c4e2-4026-96c6-45ac2cdf7005}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestApp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winmain.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseType.cpp">
+      <Filter>Base\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleBuffer.cpp">
+      <Filter>Base\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorMessageBox.cpp">
+      <Filter>Base\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDevice.cpp">
+      <Filter>Base\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Base\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Base\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>Base\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Base\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Base\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Base\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Base\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundaryBox.cpp">
+      <Filter>Base\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Base\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="statemachine.cpp">
+      <Filter>Base\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadAnimationResource.cpp">
+      <Filter>Base\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadImageResource.cpp">
+      <Filter>Base\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadSoundResource.cpp">
+      <Filter>Base\Resource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestApp.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDev.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseType.h">
+      <Filter>Base\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Callable.hpp">
+      <Filter>Base\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleBuffer.h">
+      <Filter>Base\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDevice.h">
+      <Filter>Base\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Base\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.hpp">
+      <Filter>Base\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.hpp">
+      <Filter>Base\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.hpp">
+      <Filter>Base\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Base\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>Base\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Base\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Base\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Base\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Base\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundaryBox.h">
+      <Filter>Base\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Base\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="statemachine.h">
+      <Filter>Base\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadAnimationResource.h">
+      <Filter>Base\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadImageResource.h">
+      <Filter>Base\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadSoundResource.h">
+      <Filter>Base\Resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

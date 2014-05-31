@@ -1,0 +1,4 @@
+// id 파일명 [반복여부] [구간반복여부 구간반복시작점 구간반복끝점]
+// []로 감싸진 부분은 사용여부에 따라 있을수도 있고, 없을수도 있다.
+bgSound Resource\\sound\\bgsound1.mp3 1 1 10000 17000
+effect Resource\\sound\\explosion-01.wav 0 0

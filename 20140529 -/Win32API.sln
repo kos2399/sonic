@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameDev", "GameDev\GameDev.vcxproj", "{374A0492-CFE9-4582-9F2C-2BC2899EB989}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetworkApp", "NetworkApp\NetworkApp.vcxproj", "{EBAB5723-183F-44AA-864E-7AB03FD2E22F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20140526", "20140526\20140526.vcxproj", "{08D4E422-F340-4D93-8A07-8A2C46183D7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{374A0492-CFE9-4582-9F2C-2BC2899EB989}.Debug|Win32.ActiveCfg = Debug|Win32
+		{374A0492-CFE9-4582-9F2C-2BC2899EB989}.Debug|Win32.Build.0 = Debug|Win32
+		{374A0492-CFE9-4582-9F2C-2BC2899EB989}.Release|Win32.ActiveCfg = Release|Win32
+		{374A0492-CFE9-4582-9F2C-2BC2899EB989}.Release|Win32.Build.0 = Release|Win32
+		{EBAB5723-183F-44AA-864E-7AB03FD2E22F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EBAB5723-183F-44AA-864E-7AB03FD2E22F}.Debug|Win32.Build.0 = Debug|Win32
+		{EBAB5723-183F-44AA-864E-7AB03FD2E22F}.Release|Win32.ActiveCfg = Release|Win32
+		{EBAB5723-183F-44AA-864E-7AB03FD2E22F}.Release|Win32.Build.0 = Release|Win32
+		{08D4E422-F340-4D93-8A07-8A2C46183D7E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{08D4E422-F340-4D93-8A07-8A2C46183D7E}.Debug|Win32.Build.0 = Debug|Win32
+		{08D4E422-F340-4D93-8A07-8A2C46183D7E}.Release|Win32.ActiveCfg = Release|Win32
+		{08D4E422-F340-4D93-8A07-8A2C46183D7E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

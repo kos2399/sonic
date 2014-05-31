@@ -1,0 +1,33 @@
+// id 파일명 그려질부분 transparent사용여부 [값1] alpha사용여부 [값2]
+// [값1] : 투명처리할 색
+// [값2] : 알파값
+// []로 감싸진 부분은 사용여부에 따라 있을수도 있고, 없을수도 있다.
+miniButtonOn Resource\\image\\button2.bmp 50,0,100,50 0 0
+miniButtonOff Resource\\image\\button2.bmp 0,0,50,50 0 0
+closeButtonOn Resource\\image\\button2.bmp 150,0,200,50 0 0
+closeButtonOff Resource\\image\\button2.bmp 100,0,150,50 0 0
+gray Resource\\image\\gray.bmp 0,0,10,10 0 1 150 0
+loading Resource\\image\\loading3.bmp 0,0,47,50 1 ffffff 0
+// 알파채널 가진 bmp 테스트.
+//loading Resource\\image\\loading_alpha.bmp 0,0,50,50 0 1 200 1
+0 Resource\\image\\number.bmp 0,0,60,100, 1 ff00ff 0
+1 Resource\\image\\number.bmp 60,0,120,100, 1 ff00ff 0
+2 Resource\\image\\number.bmp 120,0,180,100, 1 ff00ff 0
+3 Resource\\image\\number.bmp 180,0,240,100, 1 ff00ff 0
+4 Resource\\image\\number.bmp 240,0,300,100, 1 ff00ff 0
+5 Resource\\image\\number.bmp 300,0,360,100, 1 ff00ff 0
+6 Resource\\image\\number.bmp 360,0,420,100, 1 ff00ff 0
+7 Resource\\image\\number.bmp 420,0,480,100, 1 ff00ff 0
+8 Resource\\image\\number.bmp 480,0,540,100, 1 ff00ff 0
+9 Resource\\image\\number.bmp 540,0,600,100, 1 ff00ff 0
+// 알파채널 가진 bmp 테스트.
+//0 Resource\\image\\number3.bmp 0,0,60,100, 0 1 170 1
+//1 Resource\\image\\number3.bmp 60,0,120,100, 0 1 170 1
+//2 Resource\\image\\number3.bmp 120,0,180,100, 0 1 170 1
+//3 Resource\\image\\number3.bmp 180,0,240,100, 0 1 170 1
+//4 Resource\\image\\number3.bmp 240,0,300,100, 0 1 170 1
+//5 Resource\\image\\number3.bmp 300,0,360,100, 0 1 170 1
+//6 Resource\\image\\number3.bmp 360,0,420,100, 0 1 170 1
+//7 Resource\\image\\number3.bmp 420,0,480,100, 0 1 170 1
+//8 Resource\\image\\number3.bmp 480,0,540,100, 0 1 170 1
+//9 Resource\\image\\number3.bmp 540,0,600,100, 0 1 170 1

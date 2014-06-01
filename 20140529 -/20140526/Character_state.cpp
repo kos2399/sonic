@@ -71,7 +71,7 @@ Point Idle::GetPosition()
 // Walk
 //////////////////////////////////////////
 Walk::Walk()
-: update_dt(0), update_delay(100)
+: update_dt(0), update_delay(50)
 , bFat(false), nMove(none)
 {
 }
@@ -92,7 +92,7 @@ void Walk::Input(DWORD)
 			nMove = backward;
 
 			bValidInput = true;
-			//pMachine->transition(_T("walk"));
+			pMachine->transition(_T("walk"));
 		}
 		if (InputDevice[VK_RIGHT])
 		{
@@ -100,13 +100,15 @@ void Walk::Input(DWORD)
 
 			bValidInput = true;
 
-			//pMachine->transition(_T("walk"));
+			pMachine->transition(_T("walk"));
 		}
 
 		if (!bValidInput)
 		{
 			pMachine->transition(_T("idle"));
 		}
+		AniDepot["walk"]->SetPosition(pos);
+
 	}
 	else
 	{
@@ -125,25 +127,18 @@ void Walk::Update(DWORD tick)
 		if (pMachine)
 			dynamic_cast<Character*>(pMachine)->SetPosition(pos);
 
-		if (bFat)
-		{
-			height -= 5;
-		}
-		else 
-		{
-			height += 5;
-		}
 
-		bFat = !bFat;
+
+
 
 		update_dt -= update_delay;
 	}
-
 	update_dt += tick;
+	AniDepot["walk"]->Update(tick);
 }
 void Walk::Draw(HDC hdc)
 {
-	Rect rc(0, 0,100,100);
+	Rect rc(0, 0, 100, 100);
 
 	::DrawText(hdc, _T("walk"), -1, &rc, DT_TOP);
 
@@ -152,8 +147,8 @@ void Walk::Draw(HDC hdc)
 
 	::OutputDebugString(oss.str().c_str());
 
-	::Ellipse(hdc, pos.x - width, pos.y - height,
-		pos.x + width, pos.y + height);
+
+	AniDepot["walk"]->Draw(hdc);
 }
 void Walk::Leave()
 {

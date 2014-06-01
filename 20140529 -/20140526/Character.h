@@ -15,10 +15,11 @@ public :
 	void Update(DWORD);
 	void Draw(HDC);
 
+
 	void SetBBoxSize(const Point& pt, const Size& cs);
 	void SetShowBox(bool bShow = true);
-
 	void SetPosition(const Point& pt);
+	Point GetPosition();
 
 private :
 	void init();
@@ -26,9 +27,8 @@ private :
 private :
 	//BoundaryBox
 	BoundaryBox* BBox;
-
 	bool bShowBox;
-
 	Point pos;
+
 };
 

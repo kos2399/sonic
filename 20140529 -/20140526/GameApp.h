@@ -4,6 +4,7 @@
 
 #include "../GameDev/GameDev.h"
 #include "Character.h"
+#include "block.h"
 
 class GameApp : public MainWindow<GameApp>
 {
@@ -26,8 +27,9 @@ protected :
 
 private :
 	Character* pUser; 
-	Point ptMouse;
+	Character* block;
 
+	Point ptMouse;
 	float theta;
 
 

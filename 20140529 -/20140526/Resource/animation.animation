@@ -28,9 +28,20 @@ press 2 1 100
 Resource\\image\\Title.bmp 440,450,585,470 1 ffffff 0
 Resource\\image\\Title.bmp 440,473,585,495 1 ffffff 0
 
-character 5 1 100
+character 5 1 120
 Resource\\image\\sonic.bmp 200,15,226,55 1 bafeca 0
 Resource\\image\\sonic.bmp 239,15,268,55 1 bafeca 0
 Resource\\image\\sonic.bmp 279,15,308,55 1 bafeca 0
 Resource\\image\\sonic.bmp 319,15,349,55 1 bafeca 0
 Resource\\image\\sonic.bmp 359,15,388,55 1 bafeca 0
+
+//�ɾ
+walk 8 1 100
+Resource\\image\\sonic.bmp 8,65,50,105 1 bafeca 0
+Resource\\image\\sonic.bmp 55,65,97,105 1 bafeca 0
+Resource\\image\\sonic.bmp 97,65,139,105 1 bafeca 0
+Resource\\image\\sonic.bmp 138,65,180,105 1 bafeca 0
+Resource\\image\\sonic.bmp 183,65,225,105 1 bafeca 0
+Resource\\image\\sonic.bmp 231,65,273,105 1 bafeca 0
+Resource\\image\\sonic.bmp 273,65,315,105 1 bafeca 0
+Resource\\image\\sonic.bmp 314,65,356,105 1 bafeca 0

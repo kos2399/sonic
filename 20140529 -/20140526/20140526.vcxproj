@@ -91,12 +91,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="block.cpp" />
     <ClCompile Include="Character.cpp" />
     <ClCompile Include="Character_state.cpp" />
     <ClCompile Include="GameApp.cpp" />
     <ClCompile Include="winmain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="block.h" />
     <ClInclude Include="Character.h" />
     <ClInclude Include="Character_state.h" />
     <ClInclude Include="GameApp.h" />

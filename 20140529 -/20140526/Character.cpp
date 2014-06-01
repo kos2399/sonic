@@ -65,6 +65,7 @@ void Character::SetPosition(const Point& pt)
 		it != StateDepot.end(); it++)
 	{
 		it->second->SetPosition(pos);
+	
 	}
 }
 
@@ -80,4 +81,8 @@ void Character::init()
 	AddEntry(_T("walk"), &walk);
 
 	transition(_T("idle"));
+}
+Point Character::GetPosition()
+{
+	return pos;
 }

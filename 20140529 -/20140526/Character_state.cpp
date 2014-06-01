@@ -29,27 +29,15 @@ void Idle::Input(DWORD)
 
 		pMachine->transition(_T("walk"));
 	}
+	AniDepot["character"]->SetPosition(pos);
+	
 }
 // 업데이트
 void Idle::Update(DWORD tick)
 {
-	if (update_dt > update_delay)
-	{
-		if (bFat)
-		{
-			width -= 5;
-		}
-		else 
-		{
-			width += 5;
-		}
 
-		bFat = !bFat;
-
-		update_dt -= update_delay;
-	}
-
-	update_dt += tick;
+	AniDepot["character"]->Update(tick);
+	
 }
 void Idle::Draw(HDC hdc)
 {
@@ -57,8 +45,7 @@ void Idle::Draw(HDC hdc)
 
 	::DrawText(hdc, _T("idle"), -1, &rc, DT_TOP);
 
-	::Ellipse(hdc, pos.x - width, pos.y - height,
-		pos.x + width, pos.y + height);
+	AniDepot["character"]->Draw(hdc);
 }
 void Idle::Leave()
 {
@@ -67,11 +54,17 @@ void Idle::Leave()
 void Idle::SetPosition(const Point& pt)
 {
 	pos = pt;
+	
+	
 }
 void Idle::SetRadius(const LONG& r)
 {
 	width = r;
 	height = r;
+}
+Point Idle::GetPosition()
+{
+	return pos;
 }
 
 //////////////////////////////////////////
@@ -172,4 +165,8 @@ void Walk::SetPosition(const Point& pt)
 void Walk::SetRadius(const LONG& r)
 {
 	width = height = r;
+}
+Point Walk::GetPosition()
+{
+	return pos;
 }

@@ -12,14 +12,15 @@ public :
 	Idle();
 	virtual ~Idle();
 
-	virtual void Enter();
-	virtual void Input(DWORD);
-	virtual void Update(DWORD);
-	virtual void Draw(HDC);
-	virtual void Leave();
+	 void Enter();
+	 void Input(DWORD);
+	 void Update(DWORD);
+	 void Draw(HDC);
+	 void Leave();
 
 	void SetPosition(const Point& pt);
 	void SetRadius(const LONG& r);
+	Point GetPosition();
 
 private :
 	DWORD update_dt;
@@ -48,6 +49,7 @@ public :
 
 	void SetPosition(const Point& pt);
 	void SetRadius(const LONG& r);
+	Point GetPosition();
 
 private :
 	DWORD update_dt;

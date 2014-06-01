@@ -34,6 +34,7 @@ protected :
 class statemachine
 {
    typedef std::wstring key_type;
+   //문자열을 넣을 수 있는 keytpe, state 포인터
    typedef std::map<key_type, state*> StateDepotType;
 public :
    statemachine();

@@ -21,8 +21,9 @@ void GameApp::Input(DWORD tick)
 	}
 
 	//stage2
-	if (pUser)
+	
 		pUser->Input(tick);
+		/*pUser->SetBBoxSize(SonicPosition, Size(20, 20));*/
 }
 void GameApp::Update(DWORD tick)
 {
@@ -44,7 +45,7 @@ void GameApp::Update(DWORD tick)
 	}
 			//stage2
 	if (pUser)
-		pUser->Input(tick);
+		pUser->Update(tick);
 }
 void GameApp::Draw(DWORD)
 {
@@ -66,9 +67,11 @@ void GameApp::Draw(DWORD)
 	}
 	if(gameStart)
 	{
+		
 		ImgDepot["map"]->Draw(backbuffer);
-		if (pUser)
 		pUser->Draw(backbuffer);
+
+		/*pUser->SetBBoxSize(, Size(20, 20));*/
 	}
 		
 	backbuffer.Draw();
@@ -89,12 +92,13 @@ void GameApp::Enter()
 
 	 Rect rcMap(0,0,502,402);
 	 Point SonicPosition(50,100);
+	
 	 ////stage 2
 	 ImgDepot["map"]->SetRect(rcMap);
 	 pUser = new Character;
 	 pUser->SetPosition(SonicPosition);
-	 pUser->SetShowBox();
-
+	 pUser->SetShowBox(true);
+	 pUser->SetBBoxSize(SonicPosition, Size(20, 20));
 	
 	 AniLoader(_T("Resource//animation.animation"));
 	 AniDepot["sonic"]->SetPosition(pt);
